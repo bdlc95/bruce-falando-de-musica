@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { PrismaClient } from "./generated/prisma/client";
+import { PrismaClient } from "@prisma/client";
 import Image from "next/image";
 import { auth } from "@/lib/auth";
 
